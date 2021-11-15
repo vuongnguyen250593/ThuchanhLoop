@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Bài 1
+        // let i = 1;
+        // for (i = 1; i <= 100; i++) {
+        //     document.write(i + "<br>");
+        //     if (i == 99) {
+        //         alert("Đã hoàn thành");
+        //     }
+        // }
+
+        // Bài 2
+        // let nhietdo
+        // while (20 <= nhietdo <= 100) {
+        //     nhietdo = parseFloat(prompt("Nhập nhiệt độ hiện tại"));
+        //     if (20 <= nhietdo <= 100) {
+        //         alert("Nhiệt độ đang bình thường");
+        //     } else if (nhietdo < 20) {
+        //         alert("Tăng nhiệt độ");
+        //     } else if (nhietdo > 100) {
+        //         alert("Giảm nhiệt độ");
+        //     } 
+        // }
+        // Hỏi lại bài này
+        // let nhietdo
+        // do {
+        //     nhietdo = parseFloat(prompt("Nhập nhiệt độ hiện tại"));
+        //     if (nhietdo < 20) {
+        //         alert("Tăng nhiệt đô");
+        //     } else if (nhietdo > 100) {
+        //         alert("Giảm nhiệt độ");
+        //     } else {
+        //         alert("Nhiệt độ bình thương");
+        //     }
+        // } while (20 <= nhietdo <= 100)
+
+        // Bài 3
+        // let a = 0;
+        // let b = 1;
+        // let c;
+        // for (let i = 1; i <= 20; i++) {
+        //     document.write(a + " ");
+        //     c = a + b;
+        //     a = b;
+        //     b = c;
+        // }
+        
+        // Bài 4
+        // let a = 0;
+        // let b = 1;
+        // let c;
+        // for (let i = 2; i > 0; i++) {
+        //     c = a + b;
+        //     a = b;
+        //     b = c;
+        //     if (c % 5 == 0) {
+        //         document.write(c);
+        //         break;
+        //     }
+        // }
+
+        // Bài 5
+        let a = 0;
+        let b = 1;
+        let c;
+        let sum = 0;
+        for (let i = 1; i <= 20; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+            sum = sum + a;
+        }
+        document.write(sum);
+    </script>
+</body>
+</html>
